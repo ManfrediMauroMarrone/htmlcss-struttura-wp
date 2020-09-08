@@ -16,3 +16,18 @@ header{
     height: 200px;
     margin: 10px;
 }
+
+aside{
+    height: 300px;
+    width: 20%;
+    background-color: pink;
+    float: left;
+}
+
+main{
+    height: 400px;
+    width: calc(60% - 20px);
+    background-color: purple;
+    float: left;
+    margin: 0 10px 0 10px;
+}

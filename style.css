@@ -6,8 +6,8 @@
 
 .container{
     width: 1200px;
-    /* height: 100vh; */
-    background-color: red;
+    background-image: url(https://www.sagrafica.it/wp-content/uploads/2019/09/Japanese_Wave_Pattern.png);
+    background-size: cover;
     margin: auto;
     padding: 10px;
 }

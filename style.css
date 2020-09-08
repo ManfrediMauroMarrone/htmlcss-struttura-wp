@@ -4,30 +4,44 @@
     box-sizing: border-box;
 }
 
-.main-container{
+.container{
     width: 1200px;
-    height: 100vh;
+    /* height: 100vh; */
     background-color: red;
     margin: auto;
+    padding: 10px;
 }
 
 header{
     background-color: yellow;
     height: 200px;
-    margin: 10px;
+    margin-bottom: 10px;
 }
 
 aside{
-    height: 300px;
     width: 20%;
     background-color: pink;
     float: left;
 }
 
 main{
-    height: 400px;
     width: calc(60% - 20px);
+    margin: 0 10px 10px 10px;
     background-color: purple;
     float: left;
-    margin: 0 10px 0 10px;
+
+}
+
+.speciale{
+    width: 20%;
+    background-color: pink;
+    float: left;
+    margin-top: 10px;
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: lightblue;
+    clear: both;
 }

@@ -6,35 +6,51 @@
 
 .container{
     width: 1200px;
-    background-image: url(https://www.sagrafica.it/wp-content/uploads/2019/09/Japanese_Wave_Pattern.png);
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/665/559/original/lemon-pop-art-pattern-background-vector.png);
     background-size: cover;
     margin: auto;
     padding: 10px;
+    font-family: sans-serif;
+    border: 1px solid black;
 }
 
 header{
-    background-color: yellow;
+    background-color: #FAF9D0;
     height: 200px;
     margin-bottom: 10px;
+    border: 1px solid black;
+
 }
+
+h1{
+    text-align: center;
+    line-height: 200px;
+    font-size: 40px;
+    color: black;
+}
+
 
 aside{
     width: 20%;
-    background-color: pink;
+    background-color: #FAF9D0;
     float: left;
+    border: 1px solid black;
+
 }
 
 main{
     width: calc(60% - 20px);
     margin: 0 10px 10px 10px;
-    background-color: purple;
+    background-color: #FAF9D0;
     float: left;
+    border: 1px solid black;
+
 
 }
 
 .speciale{
     width: 20%;
-    background-color: pink;
+    background-color: #FAF9D0;
     float: left;
     margin-top: 10px;
 }
@@ -42,6 +58,15 @@ main{
 footer{
     height: 100px;
     width: 100%;
-    background-color: lightblue;
+    background-color: #FAF9D0;
     clear: both;
+    border: 1px solid black;
+    
+}
+
+h2{
+    font-size: 20px;
+    text-align: center;
+    line-height: 100px;
+
 }
